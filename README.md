@@ -67,7 +67,7 @@ Install Ollama on your machine first.
 ### 2. Pull a model
 Example:
 ```bash
-ollama pull llama3.2
+ollama pull llama3.1:8b
 ```
 
 You can also use `mistral`, `qwen2.5`, etc.
@@ -108,7 +108,7 @@ python3 main.py
 Edit `config.py` if needed:
 
 ```python
-OLLAMA_MODEL = "llama3.2"
+OLLAMA_MODEL = "llama3.1:8b"
 OLLAMA_URL = "http://localhost:11434/api/generate"
 ```
 
